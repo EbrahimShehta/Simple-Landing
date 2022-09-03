@@ -1,0 +1,268 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color--: #fec824;
+  --dark-color--: #000;
+  --light-color--: #fff;
+  --semi-light--: #4b3535;
+  --gray-color--: #808080;
+}
+
+
+ul{
+list-style: none;
+}
+
+a{
+text-decoration: none;
+color: #316993;
+}
+
+.about{
+padding: 80px 0;
+}
+nav .nav-about{
+padding: 30px 0;
+background-color: var(--dark-color--);
+}
+
+
+nav .nav-contint {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav .nav-contint ul{
+display: flex;
+align-items: center;
+padding: 0 16px;
+}
+
+nav .nav-contint ul li{
+  padding: 0 10px;
+}
+
+nav .nav-contint ul >li >img {
+  width: 20px;
+  height: 15px;
+  margin-right: 48px;
+
+}
+
+nav .nav-about .navbar .nav-items a{
+color:var(--light-color--);
+font-weight: 700;
+text-transform: capitalize;
+transition: 0.3s color linear;
+margin: 7px;
+}
+
+nav .nav-about .navbar .nav-items a:hover{
+color: #316993;
+}
+
+nav .nav-about .nav-contint .icons {
+ width: 15px;
+ height: 10px;
+
+}
+
+nav .nav-about .nav-contint .icons img{
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------*/
+
+header{
+  background: url(../images/download.jfif) center / cover no-repeat;
+  padding: 250px 0;
+  position: relative;
+}
+
+header .header-contint{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .header-contint .header-title{
+  color: var(--white);
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/* ------------------------- */
+
+.about .cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.about{
+  width: 100%;
+  padding: 100px 70px;
+  position: relative;
+}
+
+.about .cards .box {
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.about .cards .box .image-content {
+  width: 100%;
+  height: 400px;
+}
+.about .cards .box .image-content img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+.about .cards .box .data-contain {
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.about .cards .box .data-contain h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.about .cards .box .data-contain p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.about .cards .box .data-contain img{
+  width: 18px;
+  height: 13px;
+}
+
+/*-----------------------*/
+
+.footer-info-box .info-contact img{
+  width: 92px;
+  height: 37px;
+  /* margin-left: 23%; */
+}
+
+.footer-contint{
+  background-color: var(--dark-color--);
+  height: 350px;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 83px;
+  color: var(--light-color--);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 35px;
+  color: var(--light-color--);
+}
+
+.footer-box a{
+  color: var(--light-color--);
+  font-size: 15px;
+  font-weight: 400;
+  transition: .5s linear all;
+  -webkit-transition: .5s linear all;
+  -moz-transition: .5s linear all;
+  -ms-transition: .5s linear all;
+  -o-transition: .5s linear all;
+}
+
+.footer-box a:hover{
+  color: var(--primary-color--);
+}
+
+.footer-box .footer-title{
+  color: var(--light-color--);
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.footer-box .info-date,
+.footer-info-box .info-contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-box .info-date span{
+  color: var(--light-color--);
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: 307px;
+}
+
+.footer-box .info-date span:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.footer-bottom{
+  background-color: var(--dark-color--);
+  padding: 20px 40px;
+  color: var(--light-color--);
+  display: flex;
+}
+
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom .footer-bottom-contint{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-bottom .footer-bottom-contint span{
+  color: var(--light-gray);
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.footer-bottom .social-media-box{
+  display: flex;
+  align-items: center;
+  gap: 21px;
+  margin-left: 929px;
+}
+
+.footer-bottom .social-media-box .social-link{
+  width: 20px;
+  height: 20px;
+}
+
+.footer-bottom .social-media-box .social-link img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
